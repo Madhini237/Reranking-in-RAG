@@ -1,4 +1,4 @@
-Overview
+OVERVIEW
 
 This project focuses on improving the performance of Retrieval-Augmented Generation (RAG) systems using Neural Reranking techniques. Traditional RAG pipelines often retrieve documents based only on keyword similarity or embedding distance, which may include irrelevant context.
 To address this issue, this project integrates a cross-encoder reranking model that reorders retrieved passages based on semantic relevance before passing them to the language model.
@@ -9,7 +9,7 @@ Context relevance
 Answer accuracy
 Overall response quality of the RAG pipeline
 
-Features
+FEATURES
 Semantic document retrieval using dense embeddings
 Neural reranking using transformer-based cross-encoders
 Improved context selection for LLM generation
@@ -17,7 +17,7 @@ Reduced irrelevant retrieval noise
 Evaluation using retrieval and generation metrics
 Modular RAG architecture for experimentation
 
-System Architecture
+SYSTEM ARCHITECTURE
 
 The workflow of the project follows these steps:
 1. User Query Input
@@ -32,7 +32,7 @@ The workflow of the project follows these steps:
    Selected context passed to the LLM
 6. Final Response Output
 
-Technologies Used
+TECHNOLOGIES USED
 Python
 Transformers (Hugging Face)
 Sentence Transformers
@@ -41,21 +41,21 @@ PyTorch
 LangChain (if used)
 Google Colab / Jupyter Notebook
 
-Dataset
+DATASET
 
 The project uses textual datasets for evaluating retrieval quality and answer generation performance.
 The dataset consists of:
-Query-document pairs
-Context passages
-Ground truth relevant answers/documents
+*Query-document pairs
+*Context passages
+*Ground truth relevant answers/documents
 
 The dataset is preprocessed using:
-Text cleaning
-Tokenization
-Embedding generation
-Chunking for retrieval
+*Text cleaning
+*Tokenization
+*Embedding generation
+*Chunking for retrieval
 
-Neural Reranking
+NEURAL RERANKING
 
 The core improvement in this project is the use of a Cross-Encoder Reranker.
 Why Reranking?
@@ -68,7 +68,7 @@ Better document prioritization
 Higher answer relevance
 Improved RAG efficiency
 
-Experimental Setup
+EXPERIMENTAL SETUP
 
 The project evaluates:
 Baseline RAG model
@@ -81,7 +81,7 @@ MRR (Mean Reciprocal Rank)
 Answer relevance
 Retrieval accuracy
 
-Results
+RESULTS
 
 The optimized RAG pipeline with neural reranking demonstrated:
 Improved retrieval precision
