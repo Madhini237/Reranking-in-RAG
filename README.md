@@ -33,12 +33,11 @@ The workflow of the project follows these steps:
 6. Final Response Output
 
 TECHNOLOGIES USED
-Python
-Transformers (Hugging Face)
-Sentence Transformers
-FAISS / Vector Database
-PyTorch
-LangChain (if used)
+Python,
+Transformers (Hugging Face),
+Sentence Transformers,
+FAISS / Vector Database,
+PyTorch,
 Google Colab / Jupyter Notebook
 
 DATASET
@@ -75,10 +74,10 @@ Baseline RAG model
 Optimized RAG with reranking
 
 Metrics Used
-Precision@K
-Recall@K
-MRR (Mean Reciprocal Rank)
-Answer relevance
+Precision@K,
+Recall@K,
+MRR (Mean Reciprocal Rank),
+Answer relevance,
 Retrieval accuracy
 
 RESULTS
